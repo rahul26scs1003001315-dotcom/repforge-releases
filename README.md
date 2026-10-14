@@ -1,13 +1,26 @@
-# RepForge releases
+# RepForge
 
-Public download host for the RepForge Android app.
+Free workout tracker for Android — log workouts, build routines, track your strength.
 
-**Permanent link (always the newest build):**
+## Get the app
 
-https://github.com/rahul26scs1003001315-dotcom/repforge-releases/releases/latest/download/repforge.apk
+**Download the APK:** [https://github.com/rahul26scs1003001315-dotcom/repforge-releases/releases/latest/download/repforge.apk](https://github.com/rahul26scs1003001315-dotcom/repforge-releases/releases/latest/download/repforge.apk)
 
-Each release carries the APK under a fixed asset name, `repforge.apk`, so the
-`/releases/latest/download/repforge.apk` URL above never changes. Older builds
-stay downloadable from their own release tags.
+That link is permanent: it always serves the newest release, no GitHub login required.
 
-Releases are published with `npm run publish:apk` from the RepForge app repo.
+**Website:** [https://rahul26scs1003001315-dotcom.github.io/repforge-landing/](https://rahul26scs1003001315-dotcom.github.io/repforge-landing/)
+
+## Install
+
+1. Open the link above on your Android phone.
+2. Allow installs from your browser if prompted.
+3. Open the downloaded file and confirm.
+
+Requires Android 7.0 or newer. If you already have RepForge installed from a
+differently-signed build, uninstall it first.
+
+## Releases
+
+Every build is published as a tagged release with the APK attached under the
+fixed asset name `repforge.apk`, which is what makes the `/releases/latest/download/`
+link above stable. Older builds stay available from their own tags.
